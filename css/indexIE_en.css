@@ -1,0 +1,346 @@
+	/*ie9及ie9以下  宽度小于1450px  使用中屏效果*/
+	html,body{
+		min-width: 1000px;
+		font-size: 16px;
+	}
+	.center-box{
+		width: 1000px;
+	}
+	.topnav{
+		height: 80px;
+	}
+	.top-ul{
+		margin-right: 40px;
+	}
+	.topnav .top-logo{
+		background-image: url("../image/logo_white_s.png");
+		height: 80px;
+		line-height: 80px;
+		padding-left: 102px;
+		font-size: 16px;
+		margin-left: 40px;
+	}
+	.topnav .top-ul li,
+	.topnav .top-ul li.language-btns a{
+		line-height: 80px;
+		font-size: 16px;
+	}
+	.topnav .top-ul li .nav-btn{
+		margin: 24px 6px 0;
+		line-height: 30px;
+		padding: 0 6px;
+	}
+	.topnav .top-ul li.language-btns{
+		padding: 0 16px 0 20px;
+	}
+	.banner-img .banner-title h1{
+		font-size: 60px;
+	}
+	.banner-img .banner-title p{
+		font-size: 30px;
+	}
+	.topnav.topnav-white{
+		height: 60px;
+	}
+	.topnav.topnav-white .top-logo{
+		background-image: url("../image/logo_color_s.png");
+		height: 60px;
+		line-height: 60px;
+		padding-left: 82px;
+	}
+	.topnav.topnav-white .top-ul li,
+	.topnav.topnav-white .top-ul li.language-btns a{
+		line-height: 60px;
+		font-size: 14px;
+	}
+	.topnav.topnav-white .top-ul li .nav-btn{
+		margin: 14px 4px 0;
+	}
+	.topnav.topnav-white .top-ul li.language-btns{
+		padding: 0 14px 0 20px;
+	}
+	.box-title{
+		top: 100px;
+	}
+	.box-title h2{
+		font-size: 26px;
+	}
+	.box-title span{
+		font-size: 14px;
+	}
+	.box-title .blue-block{
+		margin-top: 14px;
+	}
+	.box-content{
+		padding-top: 200px !important;
+		font-size: 16px;
+	}
+	.box-content p{
+		margin-bottom: 18px;
+	}
+	.technology-box .box-content,
+	.platform-box .box-content{
+		font-size: 18px;
+	}
+	.technology-box{
+		background-size: 100%;
+	}
+	.three-business{
+		margin: 0 -20px;
+	}
+	.three-business li{
+		padding: 200px 0 20px;
+	}
+	.three-business li.business1{
+		background-image: url(../image/business1_icon_s.png);
+	}
+	.three-business li.business2{
+		background-image: url(../image/business2_icon_s.png);
+	}
+	.three-business li.business3{
+		background-image: url(../image/business3_icon_s.png);
+	}
+	.three-business li p{
+		font-size: 16px;
+	}
+	.platform-box .box-content{
+		padding-top: 180px !important;
+	}
+	.application-style{
+		top: 160px;
+	}
+	.application-style{
+		width: 312px;
+		margin-left: -156px;
+	}
+	.application-style li{
+		width: 50px;
+		height: 50px;
+		margin: 0 14px;
+	}
+	.application-style li.hanzhan-icon{
+		background-image: url("../image/hanzhan_icon_gray_s.png");
+	}
+	.application-style li.hanzhan-icon:hover,
+	.application-style li.hanzhan-icon.active{
+		background-image: url("../image/hanzhan_icon_blue_s.png");
+	}
+	.application-style li.traffic-icon{
+		background-image: url("../image/traffic_icon_gray_s.png");
+	}
+	.application-style li.traffic-icon:hover,
+	.application-style li.traffic-icon.active{
+		background-image: url("../image/traffic_icon_blue_s.png");
+	}
+	.application-style li.checkface-icon{
+		background-image: url("../image/checkface_icon_gray_s.png");
+	}
+	.application-style li.checkface-icon:hover,
+	.application-style li.checkface-icon.active{
+		background-image: url("../image/checkface_icon_blue_s.png");
+	}
+	.application-style li.lukuang-icon{
+		background-image: url("../image/lukuang_icon_gray_s.png");
+	}
+	.application-style li.lukuang-icon:hover,
+	.application-style li.lukuang-icon.active{
+		background-image: url("../image/lukuang_icon_blue_s.png");
+	}
+	.application-style li.shoushi-icon{
+		background-image: url("../image/shoushi_icon_gray_s.png");
+	}
+	.application-style li.shoushi-icon:hover,
+	.application-style li.shoushi-icon.active{
+		background-image: url("../image/shoushi_icon_blue_s.png");
+	}
+	.application-style li.jiqiren-icon{
+		background-image: url("../image/jiqiren_icon_gray_s.png");
+	}
+	.application-style li.jiqiren-icon:hover,
+	.application-style li.jiqiren-icon.active{
+		background-image: url("../image/jiqiren_icon_blue_s.png");
+	}
+	.application-content{
+		padding-top: 290px;
+	}
+	.application-left .application-img{
+		width: 390px;
+		height: 267px;
+	}
+	.application-right{
+		margin-left: 440px;
+		padding-top: 10px;
+	}
+	.application-right h3{
+		font-size: 22px;
+		margin-bottom: 10px;
+	}
+	.application-right p, .application-right ul li{
+		font-size: 15px;
+	}
+	.company-box{
+		background-size: auto 100%;
+	}
+	.company-box .box-title{
+		padding-top: 100px;
+	}
+	.company-box .box-title h2{
+		font-size: 24px;
+	}
+	.company-box .box-content{
+		padding-top: 20px !important
+	}
+	.company-box .box-content p,
+	.company-box .box-content p span{
+		font-size: 15px;
+	}
+	.company-advantage{
+		margin-top: 20px;
+	}
+	.company-advantage li{
+		padding-left: 54px;
+		min-height:40px;
+	}
+	.company-advantage li span{
+		font-size: 15px !important;
+	}
+	.company-advantage li.technology-advantage{
+		background-image: url("../image/technology_icon_s.png");
+	}
+	.company-advantage li.team-advantage{
+		background-image: url("../image/team_icon_s.png");
+	}
+	.company-advantage li.cooperation-advantage{
+		background-image: url("../image/cooperation_icon_s.png");
+	}
+	.platform-server{
+		padding-top: 14px;
+	}
+	.platform-server ul li{
+		width: 27%;
+		margin: 0 3%;
+		padding: 160px 0 20px;
+		background-position:center 42px;
+	}
+	.platform-server ul li a{
+		line-height: 36px;
+		font-size: 16px;
+		padding: 0 1em;
+		border-radius: 20px;
+	}
+	.platform-server ul li.face-server{
+		background-image: url(../image/face_icon_gray_s.png);
+	}
+	.platform-server ul li.face-server:hover{
+		background-image: url(../image/face_icon_gif_s.gif);
+	}
+	.platform-server ul li.object-server{
+		background-image: url(../image/object_icon_gray_s.png);
+	}
+	.platform-server ul li.object-server:hover{
+		background-image: url(../image/object_icon_gif_s.gif);
+	}
+	.platform-server ul li.more-server{
+		background-image: url(../image/more_icon_gray_s.png);
+	}
+	.platform-server ul li.more-server:hover{
+		background-image: url(../image/more_icon_gif_s.gif);
+	}
+	.contact-block{
+		top:100px;
+		width:560px;
+		padding: 30px 30px;
+	}
+	/*.content-block .box-title h2{
+		font-size: 26px;
+	}*/
+	.contact-block .box-content{
+		padding-top: 50px !important;
+	}
+	.contact-ul{
+		margin-bottom: 90px;
+	}
+	.contact-ul li{
+		padding-left: 36px;
+		min-height: 25px;
+		margin-bottom: 16px;
+	}
+	.contact-ul li span,
+	.contact-ul li div{
+		line-height: 25px;
+		font-size: 16px;
+	}
+	.contact-ul li.address-li{
+		background-image: url("../image/address_icon_s.png");
+	}
+	.contact-ul li.phone-li{
+		background-image: url("../image/phone_icon_s.png");
+	}
+	.contact-ul li.fax-li{
+		background-image: url("../image/fax_icon_s.png");
+	}
+	.contact-ul li.email-li{
+		background-image: url("../image/email_icon_s.png");
+	}
+	.joinus-bigbtn{
+		line-height: 50px;
+		font-size: 20px;
+		margin-left: -86px;
+	}
+	.page-foot{
+		height: 46px;
+	}
+	.page-foot p{
+		line-height:46px;
+		font-size: 13px;
+	}
+	.join-banner{
+		height: 260px;
+	}
+	.join-banner>div{
+		padding-top: 140px;
+	}
+	.join-banner>div h2{
+		font-size: 40px;
+	}
+	.join-banner>div p{
+		font-size: 24px;
+	}
+	.join-body>div{
+		padding-top: 50px;
+	}
+	.job-box{
+		margin-bottom: 80px;
+	}
+	.job-box h3{
+		font-size: 20px;
+	}
+	.job-box span,
+	.job-box p{
+		font-size: 14px;
+		line-height: 28px;
+	}
+	.join-right{
+		top: 50px;
+		width:300px;
+	}
+	.join-right li{
+		padding: 12px 0 20px;
+		font-size: 14px;
+	}
+	.join-right li h4{
+		font-size: 16px;
+		line-height:26px;
+		padding-left: 16px;
+		margin-left: -2px;
+		border-left-width: 3px;
+	}
+	.join-right li>div{
+		padding-left:17px;
+		line-height: 22px;
+		margin-bottom: 6px;
+	}
+	.join-right li>div div{
+		line-height: 20px;
+		padding-top: 1px;
+	}
